@@ -8,7 +8,7 @@ function mySecOne (){
 }
 
 document.write(5 + 6);
-window.alert(5+9);
+window.alert("welcome to my site");
 console.log(10+21);
 
 /* statement
@@ -28,4 +28,12 @@ let result = text1<text2 ;
 document.getElementById("TF").innerHTML= "Is Text 1 is Smaller than Text 2? " + result;
 
 const person={firstName:"fandogh", lastName:"tut farangi",age:"3.5"};
-document.getElementById("BIO").innerHTML= person.firstName + " is " + person.age + " years old. " ;
+document.getElementById("BIO").innerHTML= person.firstName + " is " + person.age + " years old . ";
+
+let x = myFirstOne(4, 3);
+document.getElementById("returnFunction").innerHTML = x;
+
+function myFunction(a, b) {
+  return a * b;
+}
+// return function should be ask from mentor :)
